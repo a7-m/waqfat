@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>وقفات تدبرية - القرآن الكريم والسنة النبوية</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="Attachments/image.png" type="image/x-icon">
+    <title>عن الموقع - وقفات تدبرية</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="Attachments/image.png" type="image/x-icon">
 </head>
-<body data-page="home">
+<body data-page="about">
     <!-- Header -->
     <header class="header">
         <div class="container">
             <div class="header-start">
                 <div class="logo">
-                    <a href="https://x.com/EduGovDkh4134" target="_blank"><img src="Attachments/image.png" alt="شعار الموقع" class="logo-image" ></a>
+<a href="https://x.com/EduGovDkh4134" target="_blank"><img src="Attachments/image.png" alt="شعار الموقع" class="logo-image" ></a>
                     <h1>وقفات تدبرية</h1>
                 </div>
                 <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNavList">
@@ -24,15 +24,15 @@
             </div>
             <nav class="nav">
                 <ul class="nav-list" id="mainNavList">
-                    <li><a href="index.html" data-page="home" class="nav-link active">الرئيسية</a></li>
-                    <li><a href="/pages/waqafat.html" data-page="waqafat" class="nav-link">مجموعة الوقفات</a></li>
-                    <li><a href="/pages/suwar.html" data-page="suwar" class="nav-link">السور</a></li>
-                    <li><a href="/pages/topics.html" data-page="topics" class="nav-link">المواضيع</a></li>
-                    <li><a href="/pages/favorites.html" data-page="favorites" class="nav-link">المفضلة</a></li>
-                    <li><a href="/pages/media.html" data-page="media" class="nav-link">مكتبة الوسائط</a></li>
-                    <li><a href="/pages/hadith.html" data-page="hadith" class="nav-link">تدبر الأحاديث</a></li>
-                    <li><a href="/pages/about.html" data-page="about" class="nav-link">عن الموقع</a></li>
-                    <li><a href="/pages/references.html" data-page="references" class="nav-link">المراجع</a></li>
+                    <li><a href="index.html" data-page="home" class="nav-link">الرئيسية</a></li>
+                    <li><a href="waqafat.html" data-page="waqafat" class="nav-link">مجموعة الوقفات</a></li>
+                    <li><a href="suwar.html" data-page="suwar" class="nav-link">السور</a></li>
+                    <li><a href="topics.html" data-page="topics" class="nav-link">المواضيع</a></li>
+                    <li><a href="favorites.html" data-page="favorites" class="nav-link">المفضلة</a></li>
+                    <li><a href="media.html" data-page="media" class="nav-link">مكتبة الوسائط</a></li>
+                    <li><a href="hadith.html" data-page="hadith" class="nav-link">تدبر الأحاديث</a></li>
+                    <li><a href="about.html" data-page="about" class="nav-link">عن الموقع</a></li>
+                    <li><a href="references.html" data-page="references" class="nav-link">المراجع</a></li>
                 </ul>
             </nav>
             <div class="header-actions">
@@ -48,19 +48,6 @@
     <!-- Main Content -->
     <main class="main-content">
         <div class="container">
-            <!-- Search Section -->
-            <div class="search-section">
-                <div class="search-box">
-                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="11" cy="11" r="8"/>
-                        <path d="m21 21-4.35-4.35"/>
-                    </svg>
-                    <input type="text" id="searchInput" placeholder="ابحث في الوقفات التدبرية والأحاديث..." class="search-input">
-                </div>
-                <div id="searchResults" class="search-results"></div>
-            </div>
-
-            <!-- Dynamic Content Area -->
             <div id="contentArea" class="content-area"></div>
         </div>
     </main>
@@ -84,13 +71,14 @@
                 <div class="footer-section">
                     <h3>روابط سريعة</h3>
                     <ul>
-                        <li><a href="/pages/waqafat.html" data-page="waqafat">مجموعة الوقفات</a></li>
-                        <li><a href="/pages/media.html" data-page="media">مكتبة الوسائط</a></li>
-                        <li><a href="/pages/hadith.html" data-page="hadith">تدبر الأحاديث</a></li>
-                        <li><a href="/pages/about.html" data-page="about">عن الموقع</a></li>
+                        <li><a href="waqafat.html" data-page="waqafat">مجموعة الوقفات</a></li>
+                        <li><a href="media.html" data-page="media">مكتبة الوسائط</a></li>
+                        <li><a href="hadith.html" data-page="hadith">تدبر الأحاديث</a></li>
+                        <li><a href="about.html" data-page="about">عن الموقع</a></li>
                     </ul>
                 </div>
-                <div class="footer-section">
+            </div>
+            <div class="footer-section">
                     <h3>تواصل معنا</h3>
                     <ul class="social-links">
                         <li>
@@ -120,7 +108,6 @@
                         </li>
                     </ul>
                 </div>
-            </div>
             <div class="footer-bottom">
                 <p>&copy; أحــمـد عـصــام ـــ وقفات تدبرية.<br> جميع الحقوق محفوظة 2025</p>
             </div>
@@ -135,9 +122,8 @@
         </div>
     </div>
 
-    <script src="js/waqafat-data.js"></script>
-    <script src="js/hadith-data.js"></script>
-    <script src="js/media.js"></script>
-    <script src="js/script.js"></script>
+    <script src="waqafat-data.js"></script>
+    <script src="hadith-data.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
