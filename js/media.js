@@ -84,7 +84,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'التحريم',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة  التحريم 8.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة  التحريم 8.mp4'
     },
     {
         id: 'recitation-ibrahim-23',
@@ -92,7 +92,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'إبراهيم',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة إبراهيم 23.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة إبراهيم 23.mp3'
     },
     {
         id: 'recitation-ibrahim-39',
@@ -101,7 +101,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'إبراهيم',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة إبراهيم 39.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة إبراهيم 39.mp3'
     },
     {
         id: 'video-al-ahzab-21',
@@ -109,7 +109,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الأحزاب',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الأحزاب 21.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الأحزاب 21.mp4'
     },
     {
         id: 'recitation-al-anfal-1',
@@ -117,7 +117,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الأنفال',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الأنفال 1.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الأنفال 1.mp3'
     },
     {
         id: 'video-al-anfal-9-10',
@@ -125,7 +125,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الأنفال',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الأنفال 9-10.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الأنفال 9-10.mp4'
     },
     {
         id: 'recitation-al-isra-74-76',
@@ -133,7 +133,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الإسراء',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الإسراء 74-76.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الإسراء 74-76.mp3'
     },
     {
         id: 'video-al-isra-78-81',
@@ -141,7 +141,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الإسراء',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الإسراء 78-81.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الإسراء 78-81.mp4'
     },
     {
         id: 'video-al-buruj-1-9',
@@ -149,7 +149,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'البروج',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة البروج 1-9.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة البروج 1-9.mp4'
     },
     {
         id: 'recitation-al-baqarah-148-149',
@@ -157,7 +157,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'البقرة',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة البقرة 148-149.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة البقرة 148-149.mp3'
     },
     {
         id: 'video-al-baqarah-212',
@@ -165,7 +165,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'البقرة',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة البقرة 212.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة البقرة 212.mp4'
     },
     {
         id: 'recitation-al-balad-1-4',
@@ -173,7 +173,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'البلد',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة البلد 1-4.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة البلد 1-4.mp3'
     },
     {
         id: 'recitation-at-taghabun-16',
@@ -181,7 +181,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'التغابن',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة التغابن 16.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة التغابن 16.mp3'
     },
     {
         id: 'recitation-yunus-9-10',
@@ -189,7 +189,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'يونس',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة يونس 9-10.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة يونس 9-10.mp3'
     },
     {
         id: 'recitation-at-tawbah-118',
@@ -197,7 +197,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'التوبة',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة التوبة 118.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة التوبة 118.mp3'
     },
     {
         id: 'recitation-al-jinn-22-25',
@@ -205,7 +205,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الجن',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الجن 22-25.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الجن 22-25.mp3'
     },
     {
         id: 'video-al-hujurat-10-11',
@@ -213,7 +213,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الحجرات',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الحجرات 10-11.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحجرات 10-11.mp4'
     },
     {
         id: 'video-al-imran-173',
@@ -221,7 +221,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'آل عمران',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة آل عمران 173.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة آل عمران 173.mp4'
     },
     {
         id: 'video-al-araf-104-119',
@@ -229,7 +229,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الأعراف',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الأعراف 104-119.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الأعراف 104-119.mp4'
     },
     {
         id: 'recitation-al-hadid-13',
@@ -237,7 +237,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الحديد',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الحديد 13.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحديد 13.mp3'
     },
     {
         id: 'recitation-al-anam-160-161',
@@ -245,7 +245,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الأنعام',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الأنعام 160-161.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الأنعام 160-161.mp3'
     },
     {
         id: 'recitation-al-hashr-19',
@@ -253,7 +253,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الحشر',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الحشر 19.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحشر 19.mp3'
     },
     {
         id: 'video-al-hashr-24',
@@ -261,7 +261,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الحشر',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الحشر 24.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحشر 24.mp4'
     },
     {
         id: 'video-ar-rahman-41-44',
@@ -269,7 +269,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الرحمن',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الرحمن 41-44.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الرحمن 41-44.mp4'
     },
     {
         id: 'recitation-ar-rum-27',
@@ -277,7 +277,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الروم',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الروم 27.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الروم 27.mp3'
     },
     {
         id: 'video-ar-rum-40',
@@ -285,7 +285,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الروم',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الروم 40.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الروم 40.mp4'
     },
     {
         id: 'video-ar-rum-42',
@@ -293,7 +293,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الروم',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الروم 42.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الروم 42.mp4'
     },
     {
         id: 'recitation-az-zukhruf-40-42',
@@ -301,7 +301,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الزخرف',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الزخرف 40-42.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الزخرف 40-42.mp3'
     },
     {
         id: 'recitation-az-zukhruf-81-85',
@@ -309,7 +309,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الزخرف',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الزخرف 81-85.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الزخرف 81-85.mp3'
     },
     {
         id: 'video-as-sajdah-10-11',
@@ -317,7 +317,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'السجدة',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة السجدة 10-11.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة السجدة 10-11.mp4'
     },
     {
         id: 'recitation-ash-shuara-29-35',
@@ -325,7 +325,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الشعراء',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الشعراء 29-35.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الشعراء 29-35.mp3'
     },
     {
         id: 'recitation-al-qasas-82-83',
@@ -333,7 +333,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'القصص',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة القصص 82-83.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة القصص 82-83.mp3'
     },
     {
         id: 'video-al-qasas-76-81',
@@ -341,7 +341,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'القصص',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة القصص من 76 الى 81.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة القصص من 76 الى 81.mp4'
     },
     {
         id: 'recitation-al-qasas-7-13',
@@ -349,7 +349,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'القصص',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة القصص 7-13.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة القصص 7-13.mp3'
     },
     {
         id: 'video-al-qamar-54-55-ar-rahman-1-4',
@@ -358,7 +358,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'القمر',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة القمر (54-55) سورة الرحمن (1-4).mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة القمر (54-55) سورة الرحمن (1-4).mp4'
     },
     {
         id: 'recitation-al-qamar-41-46',
@@ -366,7 +366,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'القمر',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة القمر 41 الى 46.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة القمر 41 الى 46.mp3'
     },
     {
         id: 'video-al-qiyamah-1-6',
@@ -374,7 +374,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'القيامة',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة القيامة 1-6.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة القيامة 1-6.mp4'
     },
     {
         id: 'recitation-al-muminun-97-100',
@@ -382,7 +382,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'المؤمنون',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة المؤمنون 97-100.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة المؤمنون 97-100.mp3'
     },
     {
         id: 'video-al-maidah-27-31',
@@ -390,7 +390,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'المائدة',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة المائدة 27-31.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة المائدة 27-31.mp4'
     },
     {
         id: 'recitation-al-mujadila-11',
@@ -398,7 +398,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'المجادلة',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة المجادلة 11.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة المجادلة 11.mp3'
     },
     {
         id: 'video-al-mutaffifin-29-33',
@@ -406,7 +406,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'المطففين',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة المطففين 29-33.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة المطففين 29-33.mp4'
     },
     {
         id: 'recitation-al-mumtahanah-13',
@@ -414,7 +414,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الممتحنة',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الممتحنة 13.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الممتحنة 13.mp3'
     },
     {
         id: 'video-an-najm-1-9',
@@ -422,7 +422,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'النجم',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة النجم1-9.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة النجم1-9.mp4'
     },
     {
         id: 'video-qaf-27-29',
@@ -430,7 +430,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'ق',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة ق 27-29.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة ق 27-29.mp4'
     },
     {
         id: 'recitation-an-nisa-145-147',
@@ -438,7 +438,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'النساء',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة النساء 145-147.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة النساء 145-147.mp3'
     },
     {
         id: 'video-an-nur-30',
@@ -446,7 +446,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'النور',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة النور 30.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة النور 30.mp4'
     },
     {
         id: 'recitation-luqman-34-as-sajdah-1-2',
@@ -455,7 +455,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'لقمان',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة لقمان (34) سورة السجدة (1-2).mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة لقمان (34) سورة السجدة (1-2).mp3'
     },
     {
         id: 'recitation-luqman-30',
@@ -463,7 +463,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'لقمان',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة لقمان 30.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة لقمان 30.mp3'
     },
     {
         id: 'recitation-ya-sin-36-38',
@@ -471,7 +471,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'يس',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة يس 36-38.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة يس 36-38.mp3'
     },
     {
         id: 'video-yusuf-19-20',
@@ -479,7 +479,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'يوسف',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة يوسف من 19-20.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة يوسف من 19-20.mp4'
     },
     {
         id: 'video-al-ilq-1-136',
@@ -487,7 +487,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'العلق',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة العلق كاملة.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة العلق كاملة.mp4'
     },
     {
         id: 'recitation-alqasas-87',
@@ -496,7 +496,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'القصص',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي --سورة القصص 87.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي --سورة القصص 87.mp3'
     },
     {
         id: 'recitation-luqman-17',
@@ -505,7 +505,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'لقمان',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي --سورة لقمان 17.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي --سورة لقمان 17.mp3'
     },
     { 
         id: 'recitation-al-farqan-27-29',
@@ -513,7 +513,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'الفرقان',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة الفرقان 27-29.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الفرقان 27-29.mp3'
     },
     {
         id: 'recitation-gafir-44-48',
@@ -521,7 +521,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'غافر',
         type: 'audio',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة غافر 44-48.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة غافر 44-48.mp3'
     },
     {
         id: 'video-al-ilq-1-5',
@@ -529,7 +529,7 @@ const mediaData = [
         reciter: DEFAULT_RECITER,
         surah: 'العلق',
         type: 'video',
-        url: '/video and audio/الشيخ محمد صديق المنشاوي -- سورة العلق 1-5.mp4'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة العلق 1-5.mp4'
     },    
 ];
 
