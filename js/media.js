@@ -79,12 +79,36 @@ const DEFAULT_RECITER = 'الشيخ محمد صديق المنشاوي';
 
 const mediaData = [
     {
+        id: 'video-ali-imran-85',
+        title: 'سورة آل عمران - الآية 85',
+        reciter: DEFAULT_RECITER,
+        surah: 'آل عمران',
+        type: 'video',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة آل عمران 85.mp4'
+    },
+    {
+        id: 'video-ali-imran-173',
+        title: 'سورة آل عمران - الآية 173',
+        reciter: DEFAULT_RECITER,
+        surah: 'آل عمران',
+        type: 'video',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة آل عمران 173.mp4'
+    },
+    {
         id: 'video-at-tahrim-8',
         title: 'سورة التحريم - الآية 8',
         reciter: DEFAULT_RECITER,
         surah: 'التحريم',
         type: 'video',
         url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة  التحريم 8.mp4'
+    },
+    {
+        id: 'video-ibrahim-24-25',
+        title: 'سورة إبراهيم - الآيتان 24-25',
+        reciter: DEFAULT_RECITER,
+        surah: 'إبراهيم',
+        type: 'video',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة إبراهيم 24-25.mp4'
     },
     {
         id: 'recitation-ibrahim-23',
@@ -198,6 +222,126 @@ const mediaData = [
         surah: 'التوبة',
         type: 'audio',
         url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة التوبة 118.mp3'
+    },
+    {
+        id: 'recitation-al-ahzab-16-17',
+        title: 'سورة الأحزاب - الآيتان 16-17',
+        reciter: DEFAULT_RECITER,
+        surah: 'الأحزاب',
+        type: 'audio',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الأحزاب 16-17.mp3'
+    },
+    {
+        id: 'video-al-araf-104-119',
+        title: 'سورة الأعراف - الآيات 104-119',
+        reciter: DEFAULT_RECITER,
+        surah: 'الأعراف',
+        type: 'video',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الأعراف 104-119.mp4'
+    },
+    {
+        id: 'recitation-al-anam-160-161',
+        title: 'سورة الأنعام - الآيتان 160-161',
+        reciter: DEFAULT_RECITER,
+        surah: 'الأنعام',
+        type: 'audio',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الأنعام 160-161.mp3'
+    },
+    {
+        id: 'recitation-al-isra-70-75',
+        title: 'سورة الإسراء - الآيات 70-75',
+        reciter: DEFAULT_RECITER,
+        surah: 'الإسراء',
+        type: 'audio',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الإسراء 70-75.mp3'
+    },
+    {
+        id: 'recitation-al-baqarah-165',
+        title: 'سورة البقرة - الآية 165',
+        reciter: DEFAULT_RECITER,
+        surah: 'البقرة',
+        type: 'audio',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة البقرة 165.mp3'
+    },
+    {
+        id: 'recitation-al-jathiya-14',
+        title: 'سورة الجاثية - الآية 14',
+        reciter: DEFAULT_RECITER,
+        surah: 'الجاثية',
+        type: 'audio',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الجاثية 14.mp3'
+    },
+    {
+        id: 'video-al-jumuah-8',
+        title: 'سورة الجمعة - الآية 8',
+        reciter: DEFAULT_RECITER,
+        surah: 'الجمعة',
+        type: 'video',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الجمعة 8.mp4'
+    },
+    {
+        id: 'video-al-jumuah-9-11',
+        title: 'سورة الجمعة - الآيات 9-11',
+        reciter: DEFAULT_RECITER,
+        surah: 'الجمعة',
+        type: 'video',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الجمعة 9-11.mp4'
+    },
+    {
+        id: 'video-al-hajj-1-2',
+        title: 'سورة الحج - الآيتان 1-2',
+        reciter: DEFAULT_RECITER,
+        surah: 'الحج',
+        type: 'video',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحج 1-2.mp4'
+    },
+    {
+        id: 'video-al-hujurat-10-11',
+        title: 'سورة الحجرات - الآيتان 10-11',
+        reciter: DEFAULT_RECITER,
+        surah: 'الحجرات',
+        type: 'video',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحجرات 10-11.mp4'
+    },
+    {
+        id: 'video-al-hadid-12',
+        title: 'سورة الحديد - الآية 12',
+        reciter: DEFAULT_RECITER,
+        surah: 'الحديد',
+        type: 'video',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحديد 12.mp4'
+    },
+    {
+        id: 'recitation-al-hadid-13',
+        title: 'سورة الحديد - الآية 13',
+        reciter: DEFAULT_RECITER,
+        surah: 'الحديد',
+        type: 'audio',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحديد 13.mp3'
+    },
+    {
+        id: 'recitation-al-hashr-19',
+        title: 'سورة الحشر - الآية 19',
+        reciter: DEFAULT_RECITER,
+        surah: 'الحشر',
+        type: 'audio',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحشر 19.mp3'
+    },
+    {
+        id: 'video-al-hashr-24',
+        title: 'سورة الحشر - الآية 24',
+        reciter: DEFAULT_RECITER,
+        surah: 'الحشر',
+        type: 'video',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحشر 24.mp4'
+    },
+    {
+        id: 'video-ar-rahman-41-44',
+        title: 'سورة الرحمن - الآيات 41-44',
+        reciter: DEFAULT_RECITER,
+        surah: 'الرحمن',
+        type: 'video',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الرحمن 41-44.mp4'
     },
     {
         id: 'recitation-al-jinn-22-25',
