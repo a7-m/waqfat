@@ -79,6 +79,14 @@ const DEFAULT_RECITER = 'الشيخ محمد صديق المنشاوي';
 
 const mediaData = [
     {
+        id: 'video-al-qariah-full',
+        title: 'سورة القارعة كاملة',
+        reciter: DEFAULT_RECITER,
+        surah: 'القارعة',
+        type: 'video',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة القارعة كاملة.mp4'
+    },
+    {
         id: 'video-ali-imran-85',
         title: 'سورة آل عمران - الآية 85',
         reciter: DEFAULT_RECITER,
@@ -312,14 +320,6 @@ const mediaData = [
         url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحديد 12.mp4'
     },
     {
-        id: 'recitation-al-hadid-13',
-        title: 'سورة الحديد - الآية 13',
-        reciter: DEFAULT_RECITER,
-        surah: 'الحديد',
-        type: 'audio',
-        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحديد 13.mp3'
-    },
-    {
         id: 'recitation-al-hashr-19',
         title: 'سورة الحشر - الآية 19',
         reciter: DEFAULT_RECITER,
@@ -336,28 +336,12 @@ const mediaData = [
         url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحشر 24.mp4'
     },
     {
-        id: 'video-ar-rahman-41-44',
-        title: 'سورة الرحمن - الآيات 41-44',
-        reciter: DEFAULT_RECITER,
-        surah: 'الرحمن',
-        type: 'video',
-        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الرحمن 41-44.mp4'
-    },
-    {
         id: 'recitation-al-jinn-22-25',
         title: 'سورة الجن - الآيات 22-25',
         reciter: DEFAULT_RECITER,
         surah: 'الجن',
         type: 'audio',
         url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الجن 22-25.mp3'
-    },
-    {
-        id: 'video-al-hujurat-10-11',
-        title: 'سورة الحجرات - الآيتان 10-11',
-        reciter: DEFAULT_RECITER,
-        surah: 'الحجرات',
-        type: 'video',
-        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحجرات 10-11.mp4'
     },
     {
         id: 'video-al-imran-173',
@@ -472,12 +456,12 @@ const mediaData = [
         url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الشعراء 29-35.mp3'
     },
     {
-        id: 'recitation-al-qasas-82-83',
-        title: 'سورة القصص - الآيتان 82-83',
+        id: 'recitation-al-qasas-7-13',
+        title: 'سورة القصص - الآيات 7-13',
         reciter: DEFAULT_RECITER,
         surah: 'القصص',
         type: 'audio',
-        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة القصص 82-83.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة القصص 7-13.mp3'
     },
     {
         id: 'video-al-qasas-76-81',
@@ -488,12 +472,12 @@ const mediaData = [
         url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة القصص من 76 الى 81.mp4'
     },
     {
-        id: 'recitation-al-qasas-7-13',
-        title: 'سورة القصص - الآيات 7-13',
+        id: 'recitation-al-qasas-82-83',
+        title: 'سورة القصص - الآيتان 82-83',
         reciter: DEFAULT_RECITER,
         surah: 'القصص',
         type: 'audio',
-        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة القصص 7-13.mp3'
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة القصص 82-83.mp3'
     },
     {
         id: 'video-al-qamar-54-55-ar-rahman-1-4',
@@ -501,6 +485,7 @@ const mediaData = [
         description: 'مقطع يجمع بين ختام سورة القمر وبداية سورة الرحمن بتلاوة متتابعة.',
         reciter: DEFAULT_RECITER,
         surah: 'القمر',
+        surah:'الرحمن',
         type: 'video',
         url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة القمر (54-55) سورة الرحمن (1-4).mp4'
     },
