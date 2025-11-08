@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://waqfat.com/</loc>
+        <loc>https://waqfat.netlify.app/</loc>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://waqfat.com/html/quran-reflections.html</loc>
+        <loc>https://waqfat.netlify.app/html/quran-reflections.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://waqfat.com/html/quran-chapters.html</loc>
+        <loc>https://waqfat.netlify.app/html/quran-chapters.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://waqfat.com/html/topics.html</loc>
+        <loc>https://waqfat.netlify.app/html/topics.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://waqfat.com/html/favorites.html</loc>
+        <loc>https://waqfat.netlify.app/html/favorites.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://waqfat.com/html/media.html</loc>
+        <loc>https://waqfat.netlify.app/html/media.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://waqfat.com/html/hadith.html</loc>
+        <loc>https://waqfat.netlify.app/html/hadith.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://waqfat.com/html/about.html</loc>
+        <loc>https://waqfat.netlify.app/html/about.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://waqfat.com/html/references.html</loc>
+        <loc>https://waqfat.netlify.app/html/references.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>

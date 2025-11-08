@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://waqfat.com/sitemap.xml
+Sitemap: https://waqfat.netlify.app/sitemap.xml
