@@ -49,6 +49,12 @@
         <priority>0.5</priority>
     </url>
     <url>
+        <loc>https://waqfat.netlify.app/html/contact.html</loc>
+        <lastmod>2025-11-08</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
         <loc>https://waqfat.netlify.app/html/references.html</loc>
         <lastmod>2025-11-08</lastmod>
         <changefreq>monthly</changefreq>

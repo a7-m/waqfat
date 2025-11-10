@@ -291,6 +291,75 @@ function renderMediaModalContent(mediaItem) {
     `;
 }
 
+function renderContactPage() {
+    const assetsBase = window.location.pathname.includes('/html/') ? '../Attachments' : 'Attachments';
+
+    return `
+        <div class="contact-page" style="max-width: 900px; margin: 0 auto;">
+            <div class="card" style="margin-bottom: 30px; text-align: center; padding: 30px;">
+                <h2 style="color: var(--primary-color); margin-bottom: 15px;">تواصل معنا</h2>
+                <p style="color: var(--text-secondary); line-height: 1.8;">
+                    يسعدنا تواصلكم معنا لاستفساراتكم، اقتراحاتكم، أو المساهمة في تطوير محتوى "وقفات تدبرية".
+                </p>
+            </div>
+
+            <div class="contact-grid" style="display: grid; gap: 20px;">
+                <div class="card">
+                    <h3 style="color: var(--secondary-color); margin-bottom: 15px;">بيانات التواصل المباشر</h3>
+                    <ul style="list-style: none; padding: 0; margin: 0; line-height: 2;">
+                        <li><strong>البريد الإلكتروني:</strong> <a href="mailto:ae903979@gmail.com" style="color: var(--primary-color);">ae903979@gmail.com</a></li>
+                        <li><strong>الهاتف/واتساب:</strong> <a href="tel:+96878700401" style="color: var(--primary-color);">+968 7870 0401</a></li>
+                        <li><strong>العنوان:</strong> سلطنة عمان – ولاية نزوى – مدرسة الإمام محمد بن عبدالله الخليلي</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--secondary-color); margin-bottom: 15px;">أرسل لنا رسالة</h3>
+                    <form class="contact-form" action="https://formsubmit.co/ae903979@gmail.com" method="POST" style="display: grid; gap: 15px;">
+                        <input type="hidden" name="_captcha" value="false">
+                        <label style="display: grid; gap: 8px;">
+                            <span>الاسم الكامل</span>
+                            <input type="text" name="name" required placeholder="اكتب اسمك الكامل" class="input">
+                        </label>
+                        <label style="display: grid; gap: 8px;">
+                            <span>البريد الإلكتروني</span>
+                            <input type="email" name="email" required placeholder="example@email.com" class="input">
+                        </label>
+                        <label style="display: grid; gap: 8px;">
+                            <span>موضوع الرسالة</span>
+                            <input type="text" name="subject" placeholder="عنوان مختصر" class="input">
+                        </label>
+                        <label style="display: grid; gap: 8px;">
+                            <span>نص الرسالة</span>
+                            <textarea name="message" rows="5" required placeholder="أخبرنا بما يدور في خاطرك" class="input"></textarea>
+                        </label>
+                        <button type="submit" class="btn btn-primary" style="justify-self: start;">إرسال الرسالة</button>
+                    </form>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: var(--secondary-color); margin-bottom: 15px;">تابعنا على المنصات الاجتماعية</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 20px;">كن على اطلاع بآخر التحديثات والموارد الإيمانية.</p>
+                    <div class="social-links" style="display: flex; flex-wrap: wrap; gap: 15px;">
+                        <a class="social-link instagram" href="https://www.instagram.com/ae903979/" target="_blank" rel="noopener" aria-label="Instagram">
+                            <img src="${assetsBase}/social-instagram.png" alt="Instagram" style="width: 36px; height: 36px;">
+                        </a>
+                        <a class="social-link facebook" href="https://www.facebook.com/ahmed.essam.82039/?locale=ar_AR" target="_blank" rel="noopener" aria-label="Facebook">
+                            <img src="${assetsBase}/social-facebook.png" alt="Facebook" style="width: 36px; height: 36px;">
+                        </a>
+                        <a class="social-link tiktok" href="https://www.tiktok.com/@a12h34m6" target="_blank" rel="noopener" aria-label="TikTok">
+                            <img src="${assetsBase}/social-tiktok.png" alt="TikTok" style="width: 36px; height: 36px;">
+                        </a>
+                        <a class="social-link youtube" href="https://www.youtube.com/channel/UCEXtLyJDOApYKgUN24ZwKAg" target="_blank" rel="noopener" aria-label="YouTube">
+                            <img src="${assetsBase}/social-youtube.png" alt="YouTube" style="width: 36px; height: 36px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
 function initFavoritesMediaInteractions() {
     const mediaItems = document.querySelectorAll('.favorite-media-item');
     if (!mediaItems.length) {
@@ -477,6 +546,9 @@ function loadPage(page, params = {}) {
             break;
         case 'references':
             contentArea.innerHTML = renderReferencesPage();
+            break;
+        case 'contact':
+            contentArea.innerHTML = renderContactPage();
             break;
         default:
             contentArea.innerHTML = renderHomePage();
