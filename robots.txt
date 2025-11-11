@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://waqfat.netlify.app/sitemap.xml
+Sitemap: https://a7-m.github.io/waqfat/sitemap.xml
