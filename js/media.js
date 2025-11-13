@@ -328,12 +328,12 @@ const mediaData = [
         url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحشر 19.mp3'
     },
     {
-        id: 'video-al-hashr-24',
-        title: 'سورة الحشر - الآية 24',
+        id: 'video-al-hashr-22-24',
+        title: 'سورة الحشر - الآيات 22-24',
         reciter: DEFAULT_RECITER,
         surah: 'الحشر',
-        type: 'video',
-        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحشر 24.mp4'
+        type: 'audio',
+        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحشر 22-24.mp3'
     },
     {
         id: 'recitation-al-jinn-22-25',
@@ -374,22 +374,6 @@ const mediaData = [
         surah: 'الأنعام',
         type: 'audio',
         url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الأنعام 160-161.mp3'
-    },
-    {
-        id: 'recitation-al-hashr-19',
-        title: 'سورة الحشر - الآية 19',
-        reciter: DEFAULT_RECITER,
-        surah: 'الحشر',
-        type: 'audio',
-        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحشر 19.mp3'
-    },
-    {
-        id: 'video-al-hashr-24',
-        title: 'سورة الحشر - الآية 24',
-        reciter: DEFAULT_RECITER,
-        surah: 'الحشر',
-        type: 'video',
-        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحشر 24.mp4'
     },
     {
         id: 'video-ar-rahman-41-44',
