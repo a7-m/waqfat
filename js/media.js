@@ -344,28 +344,12 @@ const mediaData = [
         url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الجن 22-25.mp3'
     },
     {
-        id: 'video-al-araf-104-119',
-        title: 'سورة الأعراف - الآيات 104-119',
-        reciter: DEFAULT_RECITER,
-        surah: 'الأعراف',
-        type: 'video',
-        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الأعراف 104-119.mp4'
-    },
-    {
         id: 'recitation-al-hadid-13',
         title: 'سورة الحديد - الآية 13',
         reciter: DEFAULT_RECITER,
         surah: 'الحديد',
         type: 'audio',
         url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الحديد 13.mp3'
-    },
-    {
-        id: 'recitation-al-anam-160-161',
-        title: 'سورة الأنعام - الآيتان 160-161',
-        reciter: DEFAULT_RECITER,
-        surah: 'الأنعام',
-        type: 'audio',
-        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الأنعام 160-161.mp3'
     },
     {
         id: 'video-ar-rahman-41-44',
@@ -558,6 +542,7 @@ const mediaData = [
         title: 'سورة لقمان 34 وسورة السجدة 1-2',
         description: 'تلاوة تجمع خاتمة سورة لقمان وبداية سورة السجدة بمقطع واحد.',
         reciter: DEFAULT_RECITER,
+        surah: 'السجدة',
         surah: 'لقمان',
         type: 'audio',
         url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة لقمان (34) سورة السجدة (1-2).mp3'
