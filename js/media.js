@@ -344,14 +344,6 @@ const mediaData = [
         url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة الجن 22-25.mp3'
     },
     {
-        id: 'video-al-imran-173',
-        title: 'سورة آل عمران - الآية 173',
-        reciter: DEFAULT_RECITER,
-        surah: 'آل عمران',
-        type: 'video',
-        url: '../video and audio/الشيخ محمد صديق المنشاوي -- سورة آل عمران 173.mp4'
-    },
-    {
         id: 'video-al-araf-104-119',
         title: 'سورة الأعراف - الآيات 104-119',
         reciter: DEFAULT_RECITER,
