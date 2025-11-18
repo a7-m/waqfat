@@ -236,6 +236,12 @@ function applyTheme(theme) {
     document.documentElement.setAttribute('data-theme', effectiveTheme);
 }
 
+function escapeInlineParam(value) {
+    return String(value ?? '')
+        .replace(/\\/g, '\\\\')
+        .replace(/'/g, "\\'");
+}
+
 function renderMediaModalContent(mediaItem) {
     if (!mediaItem) {
         return `
@@ -260,6 +266,39 @@ function renderMediaModalContent(mediaItem) {
     }
 
     const isFavorite = favorites.includes(`media-${mediaItem.id}`);
+
+    const navigationControls = (() => {
+        if (typeof getMediaLibraryData !== 'function') {
+            return '';
+        }
+
+        const mediaLibrary = getMediaLibraryData();
+        if (!Array.isArray(mediaLibrary)) {
+            return '';
+        }
+
+        const itemsOfSameType = mediaLibrary.filter(item => item.type === mediaItem.type);
+        if (itemsOfSameType.length <= 1) {
+            return '';
+        }
+
+        const prevLabel = isVideo ? 'الفيديو السابق' : 'التلاوة السابقة';
+        const nextLabel = isVideo ? 'الفيديو التالي' : 'التلاوة التالية';
+        const typeParam = escapeInlineParam(mediaItem.type);
+        const idParam = escapeInlineParam(mediaItem.id);
+        const groupLabel = isVideo ? 'التنقل بين الفيديوهات' : 'التنقل بين التلاوات';
+
+        return `
+            <div class="media-navigation" role="group" aria-label="${groupLabel}">
+                <button type="button" class="media-nav-btn" onclick="event.stopPropagation(); navigateMedia('prev', '${typeParam}', '${idParam}')">
+                    ${prevLabel}
+                </button>
+                <button type="button" class="media-nav-btn" onclick="event.stopPropagation(); navigateMedia('next', '${typeParam}', '${idParam}')">
+                    ${nextLabel}
+                </button>
+            </div>
+        `;
+    })();
 
     return `
         <div class="card modal-card expanded" data-type="media" data-id="${mediaItem.id}">
@@ -286,9 +325,47 @@ function renderMediaModalContent(mediaItem) {
             <div class="card-content">
                 ${mediaItem.description ? `<p style="margin-bottom: 20px; color: var(--text-secondary);">${mediaItem.description}</p>` : ''}
                 ${player}
+                ${navigationControls}
             </div>
         </div>
     `;
+}
+
+function navigateMedia(direction, type, currentId) {
+    if (!direction || !type || !currentId) {
+        return;
+    }
+
+    if (typeof getMediaLibraryData !== 'function') {
+        return;
+    }
+
+    const mediaLibrary = getMediaLibraryData();
+    if (!Array.isArray(mediaLibrary)) {
+        return;
+    }
+
+    const itemsOfType = mediaLibrary.filter(item => item.type === type);
+    if (itemsOfType.length <= 1) {
+        return;
+    }
+
+    const currentIndex = itemsOfType.findIndex(item => item.id === currentId);
+    if (currentIndex === -1) {
+        return;
+    }
+
+    let newIndex = direction === 'next' ? currentIndex + 1 : currentIndex - 1;
+    if (newIndex >= itemsOfType.length) {
+        newIndex = 0;
+    } else if (newIndex < 0) {
+        newIndex = itemsOfType.length - 1;
+    }
+
+    const targetItem = itemsOfType[newIndex];
+    if (targetItem && typeof renderMediaModalContent === 'function') {
+        openModal(renderMediaModalContent(targetItem));
+    }
 }
 
 function renderContactPage() {
