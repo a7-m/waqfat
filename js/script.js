@@ -1373,13 +1373,9 @@ function renderAboutPage() {
             <div class="card" style="margin-bottom: 25px; margin-top: 25px;">
                 <h3 style="color: var(--secondary-color); margin-bottom: 15px;">إعداد و تصميم </h3>
                 <p style="line-height: 1.8;">
-                    أحمد عصام عبدالمنعم محمد حسانين
+                  أحمد عصام عبدالمنعم محمد حسانين<br>
+                  رقم الهاتف : +968 78700401
                 </p>
-                <ul style="margin-top: 15px; padding-right: 20px; line-height: 2;">
-                    <li>الصف : 10 / 3</li>
-                    <li>إشراف : أ. أسعد الوائلي</li>
-                    <li>مدرسة : الإمام محمد بن عبدالله الخليلي </li>
-                </ul>
             </div>
         </div>
     `;
