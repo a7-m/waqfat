@@ -386,7 +386,7 @@ function renderContactPage() {
                     <ul style="list-style: none; padding: 0; margin: 0; line-height: 2;">
                         <li><strong>البريد الإلكتروني:</strong> <a href="mailto:ae903979@gmail.com" style="color: var(--primary-color);">ae903979@gmail.com</a></li>
                         <li><strong>الهاتف/واتساب:</strong> <a href="tel:+96878700401" style="color: var(--primary-color);">+968 7870 0401</a></li>
-                        <li><strong>العنوان:</strong> سلطنة عمان – ولاية نزوى – مدرسة الإمام محمد بن عبدالله الخليلي</li>
+                        <li><strong>العنوان:</strong> سلطنة عمان – ولاية نزوى – سوق نزوى</li>
                     </ul>
                 </div>
 
